@@ -1,0 +1,7 @@
+data/images6.json has image data
+5b.js:readLevelString(str) reads the level string duh
+tools/getBase64 converts svgs and pngs into base 64 strings for images6.json
+the source images are in visuals/*
+going to the base64 image converter will download a new images6.json file
+5b.js:tileIDFromChar is self-explanatory, very important though
+also wtf does undid do
