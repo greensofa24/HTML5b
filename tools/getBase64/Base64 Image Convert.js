@@ -1132,7 +1132,7 @@ function saveJsonObjToFile(saveObj, filename) {
 	a.href = URL.createObjectURL(file);
 	a.download = name;
 	document.body.appendChild(a);
-	//a.textContent = "manual clicking is necessary to be regarded as safe"
+	a.textContent = "manual clicking is necessary to be regarded as safe"
 	//a.click();
 	//a.remove();
 }
