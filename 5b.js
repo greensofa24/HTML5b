@@ -643,7 +643,7 @@ const blockProperties = [
 	[false,false,false,false,false,false,false,false,true,false,false,0,2,false,false,true,1,false],
 	// custom
 	// let's start without animations
-	[false,false,false,false,true,true,true,true,true,false,false,0,0,true,false,true,0,false],
+	[false,false,false,false,true,true,true,true,true,false,false,0,0,false,false,true,0,false],
 ];
 const switches = [[31,33,32,34,79,78,81,82],[51,53,52,54,133,134],[65,61,60,62,63,64],[],[],[14,16,83,85]];
 
