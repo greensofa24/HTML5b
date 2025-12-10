@@ -794,8 +794,8 @@ const filePaths = [
 	'blocks/b0131.svg',
 	'blocks/b0132.svg',
 	'blocks/b0133.svg',
-	'blocks/b0134.svg',
-	//'blocks/custom/toxicgas.svg',
+	'blocks/b0134.svg',	
+	//'blocks/b0135.svg',
 	'blocks/b01lever.svg',
 	'blocks/b02lever.svg',
 	'blocks/b03lever.svg',
@@ -1132,9 +1132,8 @@ function saveJsonObjToFile(saveObj, filename) {
 	a.href = URL.createObjectURL(file);
 	a.download = name;
 	document.body.appendChild(a);
-	a.textContent = "manual clicking is necessary to be regarded as safe"
-	//a.click();
-	//a.remove();
+	a.click();
+	a.remove();
 }
 
 async function getBase64(path, type) {
