@@ -643,7 +643,7 @@ const blockProperties = [
 	[false,false,false,false,false,false,false,false,true,false,false,0,2,false,false,true,1,false],
 	// custom
 	[false,false,false,false,true,true,true,true,true,false,false,0,0,false,false,true,0,false],
-	[true,true,true,true,false,false,false,false,true,false,false,0,/*6*/0,false,false,true,12,true,[0,2,4,6,8,10,1,3,5,7,9,11]],
+	[true,true,true,true,false,false,false,false,true,false,false,0,/*6*/0,false,false,true,12,true,[0,1,2,3,4,5,6,7,8,9,10,11]],
 	//[true,true,true,true,false,false,false,false,true,false,false,0,/*6*/0,false,false,true,12,true,[0,1,2,3,4,5,6,7,8,9,10,11]],
 ];
 const switches = [[31,33,32,34,79,78,81,82],[51,53,52,54,133,134],[65,61,60,62,63,64],[],[],[14,16,83,85]];
