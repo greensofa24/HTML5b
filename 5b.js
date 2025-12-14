@@ -644,6 +644,8 @@ const blockProperties = [
 	// custom
 	// let's start without animations
 	[false,false,false,false,true,true,true,true,true,false,false,0,0,false,false,true,0,false],
+	[true,true,true,true,false,false,false,false,true,false,false,0,/*6*/0,false,false,true,12,true,[0,1,2,3,4,5,6,7,8,9,10,11]],
+	[true,true,true,true,false,false,false,false,true,false,false,0,/*6*/0,false,false,true,12,true,[0,1,2,3,4,5,6,7,8,9,10,11]],
 ];
 const switches = [[31,33,32,34,79,78,81,82],[51,53,52,54,133,134],[65,61,60,62,63,64],[],[],[14,16,83,85]];
 
@@ -4614,6 +4616,10 @@ function onlyConveyorsUnder(i) {
 					if (todo == 0) todo = -2.48;
 				} else if (t == 16 || t == 85) {
 					if (todo == 0) todo = 2.48;
+				} else if (t == 136) {
+					if (todo == 0) todo = -4.96;
+				} else if (t == 137) {
+					if (todo == 0) todo = 4.96;
 				} else if (j == 0 || char[i].charState == 10) {
 					return 0;
 				}
